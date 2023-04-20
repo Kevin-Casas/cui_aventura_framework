@@ -1,54 +1,51 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
+  background-color: black;
+}
+
+div {
+    margin: 0;
 }
 
 img {
-    position: relative;
-    height: 500px;
-    width: 400px;
-    top: 10%;
-    left: 36%;
-
+  position: relative;
+  top: 50%;
+  left: 34%;
 }
 
-
-
-div {
-    position: relative;
-    top: 10%;
-    left: 39%;
-    color: white;
-    font-size: 30px;
-    margin: auto;
-}
-
-a {
-    border: 3px solid red;
-    font-size: 55px;
-    background-color: grey;
-    position: relative;
+h1 {
+  color: white;
+  position: relative;
+  left: 38%;
 }
 
 .uno {
-    right: 20%;
-    top: 100px;
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
 }
 
 .dos {
-    left: 10%;
-    top: 100px;
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
 }
 
-#final {
-    left: 45%;
+a {
+  font-size: 40px;
+  border: 2px solid blue;
 }
 
-#audio {
-    position: relative;
-    left: 39%;
-    top: 100px;
+audio {
+  position: absolute;
+  bottom: 7%;
+  left: 38%;
+}
+
+.final {
+  position: relative;
+  left: 44%;
 }
